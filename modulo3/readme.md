@@ -18,3 +18,9 @@ Links importantes para entender mais sobre o HTML:
 <s> -> Corta a palavra
 <ul> -> Lista não aordenadas
 <ol> -> Lista ordenadas
+<table border='1'> -> Cria uma tabela
+<tr> -> Linha de cima
+<th> -> Cabeça da tabela
+<thead> -> Fica os cabeçalhos
+<tbody> -> Fica os registros
+<caption> -> Coloca um título para a tabela
