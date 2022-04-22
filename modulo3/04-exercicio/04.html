@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Exercício 05</title>
+</head>
+<body>
+  <h1>Exercício 05 - Criando seu primeiro Form</h1>
+  <hr>
+
+  <!-- Começa agora a resolução -->
+  <h2>Cadastro da liga dos astrounatas</h2>
+  <form action="#">
+    <p>
+      <label for="name">Nome: </label>
+      <input type="text" id="name" name="name">
+    </p>
+    <p>
+      <label for="emai">Email: </label>
+      <input type="email" name="email" id="email">
+      <label for="password">- Password: </label>
+      <input type="password" name="password" id="password">
+    </p>
+    <p>
+      <label for="dataNascimento">Data de nascimento: </label>
+      <input type="date" name="dataNascimento" id="dataNascimento">
+      <label for="foto">- Foto: </label>
+      <input type="file" name="foto" id="foto">
+    </p>
+    <p>
+      <label for="nacionalidade">Nacionalidade: </label>
+      <select name="nacionalidade" id="nacionalidade">
+        <option value="Russo">Russo</option>
+        <option value="Brasileiro">Brasileiro</option>
+      </select>
+      <label for="genero">- Genero: </label>
+      <label for="generoF">F</label>
+      <input type="radio" name="genero" id="generoF" label="F">
+      <label for="generoM">M</label>
+      <input type="radio" name="genero" id="generoM" label="M">
+    </p>
+    <p>
+      <label for="qualidades">Suas principais qualidades:</label>
+      <br>
+      <label for="inteligencia">Inteligência </label>
+      <input type="checkbox" name="qualidades" id="inteligencia">
+      <label for="resiliencia">| Resiliência </label>
+      <input type="checkbox" name="qualidades" id="resiliencia">
+      <label for="preparoFisico">| Preparo físico </label>
+      <input type="checkbox" name="qualidades" id="preparoFisico">
+      <label for="educacao">| Educação </label>
+      <input type="checkbox" name="qualidades" id="educacao">
+      |
+    </p>
+    <textarea name="descricao" id="descricao" cols="30" rows="10" placeholder="Porque você gostaria de ser um austronaura?"></textarea>
+    <p>
+      <input type="submit" value="Criar">
+    </p>
+  </form>
+</body>
+</html>
