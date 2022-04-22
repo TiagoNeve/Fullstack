@@ -12,3 +12,9 @@ Links importantes para entender mais sobre o HTML:
     https://developer.mozilla.org/en-US/docs/Web/HTML​​
     https://downloadcursos.top
 ```
+
+## Tags
+<Strong> -> Dexia a palavra no modo bold e ajuda na semântica
+<s> -> Corta a palavra
+<ul> -> Lista não aordenadas
+<ol> -> Lista ordenadas
