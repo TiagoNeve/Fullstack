@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Projeto 1</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <!-- Navegação -->
+  <nav class="navigation">
+    <div class="navigation-inner site-container">
+      <img src="" alt="" id="logo">
+      <div class="main-navigation">
+        <ul class="main-navigation-ul">
+          <li><a href="">Home</a></li>
+          <li><a href="">Sobre Nós</a></li>
+          <li><a href="">Contato</a></li>
+          <li><a href="">Projetos</a></li>
+          <li><a href="">Trabalhe Conosco</a></li>
+        </ul>
+      </div>
+      <div id="btnBurger"  class="burger-container" onclick="menuFn(this)">
+        <div class="bar1"></div>
+        <div class="bar2"></div>
+        <div class="bar3"></div>
+      </div>
+
+      <script>
+        function menuFn(x) {
+          // Com o toggle, se a classe com esse nome existir ele remove, se não existir ele adiciona.
+          x.classList.toggle("change");
+        }
+      </script>
+
+    </div>
+  </nav>
+
+
+  <section class="section-top-banner">
+    <div class="top-banner__inner site-container">
+      <div class="top-banner__image">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTWQTAISMbD8hCmtjC9IFV3fal95jB2JIsgKA&usqp=CAU" alt="">
+      </div>
+      <div class="top-banner__text">
+        <div class="top-banner__text-up">
+          <span class="top-banner__span">Olá, Me chame</span>
+          <h2 class="top-banner__h2">Nome</h2>
+        </div>
+        <div class="top-banner__text-down">
+          <h2 class="top-banner__h2">Sobrenome</h2>
+          <span class="top-banner__span2">Texto Qualquer sobre mim</span>
+        </div>
+        <p>Alguma frase de impacto bem bacana</p>
+        <a href="#" class="a-button">Leia Mais</a>
+      </div>
+    </div>
+  </section>
+
+
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
