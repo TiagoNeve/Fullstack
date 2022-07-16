@@ -36,6 +36,9 @@ header {
     padding: 30px 20px;
     /* Para não alterar o tamanho já definido acima */
     box-sizing: border-box;
+
+    border: 2px solid #000;
+    border-radius: 10px;
 }
 
 .produtos h2 {
