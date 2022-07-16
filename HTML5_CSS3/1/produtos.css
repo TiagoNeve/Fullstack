@@ -6,6 +6,62 @@
 
 header {
     background: #BBB;
+    padding: 20px 0;
+}
+
+.caixa {
+    width: 940px;
+    /* Isso faz o elemento subir um z a mais? */
+    position: relative;
+    margin: 0 auto 0 auto;
+}
+
+#logo {
+    width: 240px;
+    height: 240px;
+}
+
+.produtos {
+    width: 940px;
+    margin: 0 auto 0 auto;
+    padding: 50px 0;
+}
+
+.produtos li {
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+    margin: 0 1.5%;
+    padding: 30px 20px;
+    /* Para não alterar o tamanho já definido acima */
+    box-sizing: border-box;
+}
+
+.produtos h2 {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.produto-descricao {
+    font-size: 18px;
+}
+
+.produto-preco {
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+main li img {
+    width: 240px;
+    height: 240px;
+}
+
+nav {
+    position: absolute;
+    top: 110px;
+    right: 0;
 }
 
 /* Para mexer na forma em que é apresentado, é necessário alterar o display */
