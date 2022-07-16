@@ -1,0 +1,26 @@
+* {
+    /* Zerar conf padrão dos navegadores */
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background: #BBB;
+}
+
+/* Para mexer na forma em que é apresentado, é necessário alterar o display */
+
+nav li {
+    display: inline;
+    margin: 0 0 0 15px;
+}
+
+nav a {
+    /* Para transformar o texto */
+    text-transform: uppercase;
+    color: #000;
+    /* Peso da fonte */
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+}
