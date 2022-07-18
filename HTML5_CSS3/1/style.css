@@ -1,51 +1,137 @@
-#banner {
-    width: 100%;
-    height: 500px;
+* {
+    /* Zerar conf padrão dos navegadores */
+    margin: 0;
+    padding: 0;
 }
 
-.titulo-principal {
-    padding-left: 20px;
+header {
+    background: #BBB;
+    padding: 20px 0;
 }
 
-.principal {
-    background: #CCC;
-    padding: 30px;
+.caixa {
+    width: 940px;
+    /* Isso faz o elemento subir um z a mais? */
+    position: relative;
+    margin: 0 auto 0 auto;
 }
 
-.titulo-centralizado {
-    text-align: center;
+.logo {
+    width: 240px;
+    height: 240px;
 }
 
-p {
-    text-align: center;
+.produtos {
+    width: 940px;
+    margin: 0 auto 0 auto;
+    padding: 50px 0;
 }
 
-#missao {
-    font-size: 20px;
-}
-
-em strong {
-    color: #F00;
-}
-
-.itens {
-    font-style: italic;
-}
-
-.beneficios {
-    background: #FFF;
-    padding: 20px;
-}
-
-ul {
-    /* Para tirar o efeito block em alguns elementos, sem perder a sua característica */
+.produtos li {
     display: inline-block;
-    /* Isso para mudar o alinhamento vertical dos itens, o padrão é que eles fiquem em baixo, mas é possível alterar com o valor top. */
+    text-align: center;
+    width: 30%;
     vertical-align: top;
-    width: 20%;
-    margin-right: 15%;
+    margin: 0 1.5%;
+    padding: 30px 20px;
+    /* Para não alterar o tamanho já definido acima */
+    box-sizing: border-box;
+
+    border: 2px solid #000;
+    border-radius: 10px;
 }
 
-.imagemBeneficios {
+.produtos li:hover {
+    border-color: #C78C19;
+
+}
+
+.produtos li:hover h2 {
+    font-size: 34px;
+}
+
+.produtos li:active {
+    border-color: #088C19;
+}
+
+.produtos h2 {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.produto-descricao {
+    font-size: 18px;
+}
+
+.produto-preco {
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+main li img {
+    width: 240px;
+    height: 240px;
+}
+
+nav {
+    position: absolute;
+    top: 110px;
+    right: 0;
+}
+
+/* Para mexer na forma em que é apresentado, é necessário alterar o display */
+
+nav li {
+    display: inline;
+    margin: 0 0 0 15px;
+}
+
+nav a {
+    /* Para transformar o texto */
+    text-transform: uppercase;
+    color: #000;
+    /* Peso da fonte */
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+}
+
+nav a:hover {
+   color: #C78C19; 
+   text-decoration: underline;
+}
+
+footer {
+    text-align: center;
+    background-image: url("https://img.freepik.com/premium-photo/black-stone-texture-dark-slate-background-top-view_88281-1206.jpg?w=2000");
+    padding: 40px 0;
+}
+
+.copyright {
+    color: #FFF;
+    font-size: 13px;
+    margin-top: 20px;
+}
+
+main {
+    width: 940px;
+    margin: 0 auto;
+}
+
+form {
+    margin: 40px 0;   
+}
+
+form label {
+    display: block;
+    font-size: 20px;
+    margin: 0 0 10px;
+}
+
+form input {
+    display: block;
+    margin: 0 0 20px;
+    padding: 10px 25px;
     width: 50%;
 }
