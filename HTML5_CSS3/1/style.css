@@ -143,3 +143,37 @@ form label, form legend {
 fieldset {
     border: 0;
 }
+
+.enviar {
+    width: 40%;
+    padding: 15px 0;
+    background-color: orange;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    transition: 1s all;
+}
+
+.enviar:hover {
+    background-color: darkorange;
+    cursor: pointer;
+
+    transform: scale(1.2);
+}
+
+table {
+    margin: 20px 0 40px ;
+}
+
+thead {
+    background-color: #555;
+    color: #FFF;
+    font-weight: bold;
+}
+
+td, th {
+    border: 1px solid #000;
+    padding: 8px 15px;
+}
