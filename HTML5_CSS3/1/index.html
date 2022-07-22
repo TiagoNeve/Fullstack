@@ -4,39 +4,78 @@
         <meta charset="UTF-8">
         <title>Barbearia Code</title>
 
-        <link rel="stylesheet" href="style-home.css">
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:&display=swap" rel="stylesheet">
     </head>
 
     <body>
 
         <header>
-            <h1 class="titulo-principal">Barbearia Code</h1>
+            <div class="caixa">
+                <h1><img class="logo" src="https://i.imgur.com/r2lkaaW.png" alt="Logo da Barbearia Code"></h1>
+    
+                <nav>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="produtos.html">Produtos</a></li>
+                        <li><a href="contato.html">Contato</a></li>
+                    </ul>
+                </nav>
+            </div>
         </header>
 
-        <img id="banner" src="https://img.freepik.com/fotos-premium/cadeira-vazia-de-angulo-baixo-na-barbearia_23-2148298360.jpg?w=2000" alt="banner">
+        <img class="banner" src="https://img.freepik.com/fotos-premium/cadeira-vazia-de-angulo-baixo-na-barbearia_23-2148298360.jpg?w=2000" alt="banner">
 
-        <div class="principal">
-            <h2 class="titulo-centralizado">Sobre a Barbearia Code</h2>
+        <main>
+            <section class="principal">
+                <h2 class="titulo-principal">Sobre a Barbearia Code</h2>
+                
+                <img src="https://gitricardosantos.github.io/Barbearia/utensilios.jpg" alt="Utensílios de um barbeiro" class="utensilios">
+
+                <p>Localizada no coração da cidade a <strong>Barbearia Code</strong> traz para o mercado o que há de melhor para o seu cabelo e barba. Fundada em 2019, a <strong>Barbearia Code</strong> já é destaque na cidade e conquista novos clientes a cada dia.</p>
+                
+                <p id="missao"><em>Nossa missão é: <strong>"Proporcionar auto-estima e qualidade de vida aos clientes"</strong>.</em></p>
+                
+                <p>Oferecemos profissionais experientes e antenados às mudanças no mundo da moda. O atendimento possui padrão de excelência e agilidade, garantindo qualidade e satisfação dos nossos clientes.</p>
+            </section>
             
-            <p>Localizada no coração da cidade a <strong>Barbearia Code</strong> traz para o mercado o que há de melhor para o seu cabelo e barba. Fundada em 2019, a <strong>Barbearia Code</strong> já é destaque na cidade e conquista novos clientes a cada dia.</p>
-            
-            <p id="missao"><em>Nossa missão é: <strong>"Proporcionar auto-estima e qualidade de vida aos clientes"</strong>.</em></p>
-            
-            <p>Oferecemos profissionais experientes e antenados às mudanças no mundo da moda. O atendimento possui padrão de excelência e agilidade, garantindo qualidade e satisfação dos nossos clientes.</p>
-        </div>
+            <section class="mapa">
+                <h3 class="titulo-principal">Nosso estabelececimento</h3>
+                <p>Nosso estabelecimento está localizado no coração da cidade</p>
+                <div class="mapa-conteudo">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3981.1993861813808!2d-38.5396426844061!3d-3.7667436444254836!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7c74ed2a85892b9%3A0x60ab23974c166586!2sJohnny%C2%B4s%20Barber!5e0!3m2!1spt-BR!2sbr!4v1658477532222!5m2!1spt-BR!2sbr" width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+                </div>
+
+            </section>
+
+            <section class="beneficios">
+                <h3 class="titulo-principal">Benefícios</h3>
         
-        <div class="beneficios">
-            <h3 class="titulo-centralizado">Benefícios</h3>
-    
-            <ul>
-                <li class="itens">Atendimento aos Clientes</li>
-                <li class="itens">Espaço diferenciado</li>
-                <li class="itens">Localização</li>
-                <li class="itens">Profissionais Qualificados</li>
-            </ul>
+                <div class="conteudo-beneficios">
+                    <ul class="lista-beneficios">
+                        <li class="itens">Atendimento aos Clientes</li>
+                        <li class="itens">Espaço diferenciado</li>
+                        <li class="itens">Localização</li>
+                        <li class="itens">Profissionais Qualificados</li>
+                        <li class="itens">Pontualidade</li>
+                        <li class="itens">Limpeza</li>
+                    </ul><img class="imagem-beneficios" src="https://img-vozdascomunidade.s3.sa-east-1.amazonaws.com/wp-content/uploads/2022/02/22171422/2022-02-21-GLKids-Barbearia-CDD-SELMA-SOUZA-17-scaled.jpg" alt="Imagem benefícios">
 
-            <img class="imagemBeneficios" src="https://img-vozdascomunidade.s3.sa-east-1.amazonaws.com/wp-content/uploads/2022/02/22171422/2022-02-21-GLKids-Barbearia-CDD-SELMA-SOUZA-17-scaled.jpg" alt="Imagem benefícios">
-        </div>
+                </div>
+
+                <div class="video">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/wcVVXUV0YUY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+            </section>
+        </main>
+
+        <footer>
+            <img class="logo" src="https://i.imgur.com/r2lkaaW.png" alt="Logo da Barbearia Code">
+            <p class="copyright">&copy; Copyright Barbearia Code - 2022</p>
+        </footer>
     </body>
 
 </html>
