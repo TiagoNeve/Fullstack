@@ -1,0 +1,34 @@
+<style>
+    .flex-container {
+        display: flex;
+        background: lightblue;
+        padding: 16px;
+        border: 4px solid blue;
+        gap: 8px;
+    }
+
+    .flex-container div {
+        background: peachpuff;
+        border: 4px solid salmon;
+        height: 48px;
+        flex: 1;
+        padding: 4px;
+    }
+
+    .flex-container div.two {
+        display: flex;
+    }
+
+    .two .two1 {
+        border: 1px solid red;
+    }
+</style>
+
+<div class="flex-container">
+    <div class="one"></div>
+    <div class="two">
+        <div class="two1"></div>
+        <div class="two1"></div>
+    </div>
+    <div class="three"></div>
+</div>
